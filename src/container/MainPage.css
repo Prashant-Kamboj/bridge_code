@@ -1,0 +1,35 @@
+.inner-container{
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    height: 200px;
+}
+
+.input-tool{
+    background-color: white;
+    width: 200px;
+    border-radius: 8px;
+    padding: 2rem;
+    padding-left: 27px;
+    padding-bottom: 21rem;
+}
+
+.dashboard-tool{
+    background-color: white;
+    width: 200px;
+    border-radius: 8px;
+    padding: 2rem;
+    padding-bottom: 21rem;
+}
+
+.input-tool-text{
+    padding-left: 30px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.dashboard-tool-text{
+    padding-left: 30px;
+    padding-top: 4px;
+    font-size: 20px;
+}

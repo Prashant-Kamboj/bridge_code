@@ -1,0 +1,55 @@
+.container-google-btn {
+    height: 500px;;
+    margin: 0rem;
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-goole-container{
+    height: inherit;
+    background: white;
+    width: 30%;
+    margin: 0rem;
+    border-radius: 8px;
+}
+
+.info-txt{
+    color: gainsboro
+}
+
+.logo-bi2i{
+    padding: 2rem;
+    padding-bottom: 0;
+}
+
+.btn-goole{
+    padding: 4rem;
+}
+
+.footer-details{
+    margin-top: 76px;
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+}
+
+@media only screen and (max-device-width: 480px) and (min-device-width: 220px){
+    .inner-goole-container {
+        height: inherit;
+        background: white;
+        width: 90%;
+        margin: 0rem;
+        border-radius: 8px;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    .inner-goole-container {
+        height: inherit;
+        background: white;
+        width: 50%;
+        margin: 0rem;
+        border-radius: 8px;
+    }
+}

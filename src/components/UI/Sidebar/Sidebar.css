@@ -1,0 +1,16 @@
+.side-bar{
+    width: 200px;
+    z-index: 20;
+    background-color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    height: 100%;
+    transition: transform 0.3s ease-out;
+}
+
+.side-bar>ul{
+    list-style: none;
+}

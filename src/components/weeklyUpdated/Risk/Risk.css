@@ -1,0 +1,17 @@
+.add-mitigation{
+    width: 125px;
+    padding: 8px;
+    height: 48px;
+    font-weight: bolder;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+    font-size: 15px;
+    background-color: #008000d6;
+}
+
+.add-miti{
+    display: flex;
+    justify-content: center;
+}

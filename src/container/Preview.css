@@ -1,0 +1,119 @@
+.projectData {
+  display: flex;
+  flex-direction: row;
+  background-color: #f3f7fa;
+  flex-wrap: wrap;
+  margin: 4rem;
+  padding: 2rem;
+}
+
+.milestone-details {
+  background-color: #f3f7fa;
+  margin: 4rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.milestone {
+  width: 100%;
+  margin: 2rem;
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.risk-data {
+  margin: 4rem;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+  background-color: #f3f7fa;
+}
+
+.risk-details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2rem;
+  border: 1px solid;
+  margin: 2rem;
+}
+
+.preview-edit-btn {
+  width: 100%;
+  padding: 0;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  background-color: #a0cc3a;
+  border-radius: 4px;
+  margin: 0;
+  height: 100%;
+}
+
+.preview-submit-btn {
+  width: 100%;
+  padding: 0;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  background-color: #a0cc3a;
+  border-radius: 4px;
+  margin: 0;
+  height: 100%;
+}
+
+.preview-edit {
+  margin: 2rem;
+  width: 80px;
+  height: 45px;
+}
+
+.preview-submit {
+  margin: 2rem;
+  width: 80px;
+  height: 45px;
+}
+
+.preview-btns {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.mitigation-data {
+  display: flex;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.mitigation-main {
+  width: 100%;
+  border: 1px solid;
+  margin: 1rem auto;
+}
+
+.submited{
+  font-weight: bolder;
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  font-size: 25px;
+}
+.success-text {
+  position: absolute;
+    top: 50%;
+    color: green;
+    z-index: 300;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
